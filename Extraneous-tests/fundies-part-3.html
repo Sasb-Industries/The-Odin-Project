@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function add7(a) {
+            console.log(a+7)
+        }
+
+        add7(10)
+
+        function multiply(a,b) {
+            return a*b
+        }
+
+        console.log(multiply(5,3))
+
+        //This will capitalize the first letter in a string
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        console.log(capitalize("phanny"))
+
+        // this will find the last letting in a string and return it
+        function lastLetter(str) {
+            return str.charAt(str.length - 1)
+        }
+
+        console.log(lastLetter("buttocks"))
+    </script>
+</body>
+</html>
