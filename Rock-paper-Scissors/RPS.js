@@ -15,7 +15,8 @@ function computerPlay() {
 
 // let input = prompt("Choose rock, paper or scissors").toLowerCase()
 
-let playerSelection = "Scissors"
+let playerSelection = "scissors"
+document.querySelector("#player").innerHTML = playerSelection.toString()
 let computerSelection = computerPlay()
 console.log(playerSelection, computerSelection)
 
